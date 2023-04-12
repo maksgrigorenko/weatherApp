@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./temperatyre.css">
+    <title>TEMPERATYRE</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="search-block">
+            <h1 class=title>TEMPERATYRE</h1>
+            <input type="text" class="weather-input" id="weatherInput" placeholder="ГОРОД">
+            <button class="weather-button" id="weatherButton">Узнать погоду</button>
+        </div>
+        <img id="loader" class="loaded hide" src="./img/icons8-loading-circle.gif" alt="">
+        <div class="weather-details-block">
+            <h1 id="city">Город</h1>
+
+            <div class="weather-information-block">
+                <div class="weather-img-block">
+                    <img id="weatherImg" src="./img/solnce-zvezdy.jpg" alt="" class="weather-img">
+                    <h2 id="weatherDescription" class="weather-description"></h2>
+                </div>
+                
+                <div class="weather-text-block">
+                    <p id="te" class="weather-text">Температура</p>
+                    <p id="vl" class="weather-text">Влажность</p>
+                    <p id="dv" class="weather-text">Довление</p>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+    <script src="./temperatyre.js"></script>
+</body>
+
+</html>
